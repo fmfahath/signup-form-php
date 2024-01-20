@@ -9,6 +9,8 @@ body{
     background-color: #e4e9f7;
 }
 
+/* Signin & Sign Up form---------------------------------------- */
+
 .container{
     display: flex;
     align-items: center;
@@ -89,4 +91,66 @@ body{
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 15px;
+}
+
+
+/* home page---------------------------------------------------------- */
+.nav{
+    background: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgba(76,68,182,0.808);
+    cursor: pointer;
+}
+
+.right-links a{
+    padding: 0 10px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.box{
+    margin-bottom: 20px;
+}
+
+.main-box .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 800px){
+    .main-box .top{
+        flex-direction: column;
+    }
+
+    .box{
+        overflow: hidden;
+        height: auto;
+    }
 }
