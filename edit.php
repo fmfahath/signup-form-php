@@ -12,7 +12,7 @@
             <a href="home.php"><p>Logo</p></a>
         </div>
 
-        <div class="right-links">
+        <div class="right-links"> 
             <a href="#">Change Profile</a>
             <a href="logout.php"><button class="btn">Log Out</button></a>
         </div>

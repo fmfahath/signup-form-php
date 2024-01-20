@@ -158,3 +158,29 @@ main{
         height: auto;
     }
 }
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+a.btn-msg{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.error{
+    color: red;
+}
+
+.green{
+    color: green;
+}
