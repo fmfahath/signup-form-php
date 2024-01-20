@@ -107,8 +107,12 @@ body{
 .logo{
     font-size: 25px;
     font-weight: 900;
-    color: rgba(76,68,182,0.808);
     cursor: pointer;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgba(76,68,182,0.808);
 }
 
 .right-links a{
