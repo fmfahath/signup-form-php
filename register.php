@@ -31,7 +31,7 @@
                     <input type="submit" class="btn submit" value="Login">
                 </div>
                 <div class="link">
-                    Already have an account? <a href="index.html">Sign In</a> 
+                    Already have an account? <a href="index.php">Sign In</a> 
                 </div>
             </form>
         </div>

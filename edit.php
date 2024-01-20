@@ -9,14 +9,14 @@
 <body>
    <div class="nav">
         <div class="logo">
-            <a href="index.html"><p>Logo</p></a>
+            <a href="home.php"><p>Logo</p></a>
         </div>
 
         <div class="right-links">
             <a href="#">Change Profile</a>
             <a href="logout.php"><button class="btn">Log Out</button></a>
         </div>
-   </div>
+   </div> 
 
    <div class="container">
     <div class="box form-box">

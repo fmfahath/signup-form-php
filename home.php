@@ -9,7 +9,7 @@
 <body>
    <div class="nav">
         <div class="logo">
-            <a href="index.html"><p>Logo</p></a>
+            <a href="home.php"><p>Logo</p></a>
         </div>
 
         <div class="right-links">
