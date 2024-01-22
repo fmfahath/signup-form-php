@@ -23,7 +23,7 @@
         <div class="right-links">
             <?php
                 $id = $_SESSION['id'];
-                $res_uname = $res_email =  $res_age =  $res_id = "";
+                // $res_uname = $res_email =  $res_age =  $res_id = "";
                 $query = mysqli_query($con, "SELECT * FROM users WHERE id='$id'");
 
 
@@ -44,7 +44,7 @@
         <div class="main-box top">
             <div class="top">
                 <div class="box">
-                    <p>Hello <b><?php echo $res_uname ?></b>, Welcoe!</p>
+                    <p>Hello <b><?php echo $res_uname ?></b>, Welcome!</p>
                 </div>
                 <div class="box">
                     <p>Your email ID is <b><?php echo $res_email ?></b></p>
